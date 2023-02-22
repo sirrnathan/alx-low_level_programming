@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * _last_digit - prints the last digit of a number
- * @n: number to check
- *Return: 0 or 1.
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59
  */
 
 void jack_bauer(void)
@@ -23,10 +22,10 @@ while (h2 <= 2)
 	}
 	h1 = 0;
 	while (h1 <= a)
-	{	
+	{
 		m2 = 0;
 		while (m2 <= 5)
-		{	
+		{
 			m1 = 0;
 			while (m1 <= 9)
 			{
