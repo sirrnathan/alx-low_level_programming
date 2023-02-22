@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - prints the timetable
- * @n: number to check
- *Return: 0 or 1.
+ * times_table - prints the 9 times table, starting at 0
  */
 
 void times_table(void)
@@ -32,7 +30,7 @@ while (a <= 9)
 			_putchar('0' + rep / 10);
 			_putchar('0' + rep % 10);
 		}
-		if (b <9)
+		if (b < 9)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -41,6 +39,6 @@ while (a <= 9)
 	}
 	_putchar('\n');
 	a++;
-}	
+}
 
 }
