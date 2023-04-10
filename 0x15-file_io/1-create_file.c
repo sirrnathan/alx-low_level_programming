@@ -24,10 +24,10 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 
-	for (new_letters = 0; text_content[new_letters]; new_letters++)
+	for (new_letter = 0; text_content[new_letter]; new_letter++)
 		;
 
-	nx = write(frnt, text_content, new_letters);
+	nx = write(frnt, text_content, new_letter);
 
 	if (nx == -1)
 		return (-1);
